@@ -171,6 +171,7 @@ function playGame()
 
             playRound(humanSelection, computerSelection)
             console.log(`Player Score: ${humanScore}   Computer Score: ${computerScore}`);
+            gamesPlayed++;
 
         }
     
