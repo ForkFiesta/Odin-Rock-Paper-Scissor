@@ -105,7 +105,7 @@ function playRound(humanChoice, computerChoice)
 // playRound(humanSelection, computerSelection);
 
 function playGame()
-{
+{   console.log("Welcome to Rock Paper Scissors. You will play 5 rounds against the computer.")
     let gamesPlayed =0
     let humanScore = 0;
     let computerScore = 0;
