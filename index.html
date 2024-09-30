@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="javascript.js"></script>
     <title>Rock Paper Scissors</title>
 </head>
@@ -12,18 +13,22 @@
     <div class="container">
         <h1>Rock Paper Scissors</h1>
         <div class="score">
-            <label id="user-score">User Score: </label>
-            <label id="computer-score">Computer Score: </label>
+            <p id="user-score">User Score: </p>
+            <p id="computer-score">Computer Score: </p>
         </div>
+        <div class = "hands">
         <div class="computer-hand">
-            <span id="computer-rock">&#9994;</span>
-            <span id="computer-paper">&#9995;</span>
-            <span id="computer-scissors">&#9996;</span>
+            <p>Computer Hand:</p>
+            <span id="computer-symbol">&#9994;</span>
+            <!-- <span id="computer-paper">&#9995;</span>
+            <span id="computer-scissors">&#9996;</span> -->
         </div>
         <div class="user-hand">
-            <span id="user-rock">&#9994;</span>
-            <span id="user-paper">&#9995;</span>
-            <span id="user-scissors">&#9996;</span>
+            <p>User Hand:</p>
+            <span id="user-symbol">&#9994;</span>
+            <!-- <span id="user-paper">&#9995;</span>
+            <span id="user-scissors">&#9996;</span> -->
+        </div>
         </div>
         <div class="choice-buttons">
             <button id="rock">Rock</button>
