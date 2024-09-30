@@ -164,16 +164,27 @@ function playGame()
             }
         
     }
-    while(gamesPlayed < 5)
-        {
-            const humanSelection = getHumanChoice();
-            const computerSelection = getComputerChoice();
 
-            playRound(humanSelection, computerSelection)
-            console.log(`Player Score: ${humanScore}   Computer Score: ${computerScore}`);
-            gamesPlayed++;
 
-        }
+    const rockButton = Document.createElement("button");
+    const paperButton = Document.createElement("button");
+    const scissorsButton = Document.createElement("button");
+
+    rockButton.addEventListener('click', ()=>{
+        playRound('rock', getComputerChoice());
+
+    })
+    
+    // while(gamesPlayed < 5)
+    //     {
+    //         const humanSelection = getHumanChoice();
+    //         const computerSelection = getComputerChoice();
+
+    //         playRound(humanSelection, computerSelection)
+    //         console.log(`Player Score: ${humanScore}   Computer Score: ${computerScore}`);
+    //         gamesPlayed++;
+
+    //     }
     
     if (humanScore > computerScore){
         console.log("You Win!!!!!!");
