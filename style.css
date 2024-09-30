@@ -84,3 +84,8 @@ button {
     font-weight: 900;
 }
 
+.highlight {
+    background-color: yellow;
+    color: red;
+}
+
